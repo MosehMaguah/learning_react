@@ -36,11 +36,11 @@
   border: 3px solid hsla(0, 0%, 50%, 0.8);
 }
 
-.student p{
+.student p {
   margin: 0;
 }
 
-.welcome-message{
+.welcome-message {
   font-size: 2.5em;
   background-color: hsl(120, 100%, 42%);
   color: white;
@@ -49,7 +49,7 @@
   margin: 0;
 }
 
-.prompt-message{
+.prompt-message {
   font-size: 2.5em;
   background-color: hsl(0, 100%, 42%);
   color: white;
@@ -58,7 +58,7 @@
   margin: 0;
 }
 
-.list-items{
+.list-items {
   font-size: 1.5em;
   text-align: center;
   list-style: none;
@@ -67,7 +67,7 @@
 
 }
 
-.list-category{
+.list-category {
   font-size: 2.5em;
   font-weight: bold;
   color: hsl(0, 0%, 20%);
@@ -78,7 +78,76 @@
   background-color: hsl(185, 100%, 50%);
 }
 
-.list-items li:hover{
+.list-items li:hover {
   color: hsl(280, 100%, 50%);
   cursor: pointer;
+}
+
+.counter-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.count-display {
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-button{
+  width: 100px;
+  height: 50px;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0px 5px 30px;
+  background-color: hsl(261, 77%, 41%);
+  color: aliceblue;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.counter-button:hover{
+  background-color: hsl(261, 75%, 63%);
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  margin: 50px;
+  font-size: 3rem;
+}
+
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+
+.color-display p{
+  color: hsl(0, 0%, 20%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+input[type="color"]{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
+  
 }
