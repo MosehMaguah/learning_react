@@ -7,6 +7,9 @@ import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
 import Button from './Button.jsx'
 import ProfilePic from "./ProfilePic.jsx";
+import Counter from "./Counter.jsx";
+import OnChange from "./OnChange.jsx";
+import ColorPicker from "./ColorPicker.jsx";
 
 function App() {
   const fruits = [
@@ -29,6 +32,12 @@ function App() {
     <>
       <Header />
       <UserGreeting isLoggedIn={true} />
+
+      <ColorPicker/>
+
+      <Counter/>
+
+      <OnChange/>
 
       <Button />
       <ProfilePic/>
