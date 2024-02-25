@@ -10,6 +10,9 @@ import ProfilePic from "./ProfilePic.jsx";
 import Counter from "./Counter.jsx";
 import OnChange from "./OnChange.jsx";
 import ColorPicker from "./ColorPicker.jsx";
+import MyComponent from './MyComponent.jsx';
+import Component from "./Component.jsx";
+import ArrayUpdate from "./ArrayUpdate.jsx";
 
 function App() {
   const fruits = [
@@ -32,12 +35,15 @@ function App() {
     <>
       <Header />
       <UserGreeting isLoggedIn={true} />
+      <Component/>
+      <ArrayUpdate/>
 
       <ColorPicker/>
 
       <Counter/>
 
       <OnChange/>
+      <MyComponent/>
 
       <Button />
       <ProfilePic/>
