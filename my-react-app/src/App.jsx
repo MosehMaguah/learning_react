@@ -13,6 +13,8 @@ import ColorPicker from "./ColorPicker.jsx";
 import MyComponent from './MyComponent.jsx';
 import Component from "./Component.jsx";
 import ArrayUpdate from "./ArrayUpdate.jsx";
+import ObjectUpdater from "./ObjectUpdater.jsx";
+import LearnUseEffect from "./LearnUseEffect.jsx";
 
 function App() {
   const fruits = [
@@ -37,6 +39,9 @@ function App() {
       <UserGreeting isLoggedIn={true} />
       <Component/>
       <ArrayUpdate/>
+      <LearnUseEffect/>
+      
+      <ObjectUpdater />
 
       <ColorPicker/>
 
