@@ -15,6 +15,9 @@ import Component from "./Component.jsx";
 import ArrayUpdate from "./ArrayUpdate.jsx";
 import ObjectUpdater from "./ObjectUpdater.jsx";
 import LearnUseEffect from "./LearnUseEffect.jsx";
+import UseEffectHook from "./UseEffectHook.jsx";
+import ComponentA from "./ComponentA.jsx";
+import UseRefHook from "./UseRefHook.jsx"
 
 function App() {
   const fruits = [
@@ -37,11 +40,14 @@ function App() {
     <>
       <Header />
       <UserGreeting isLoggedIn={true} />
+      <ComponentA/>
       <Component/>
       <ArrayUpdate/>
+      <UseEffectHook/>
       <LearnUseEffect/>
       
       <ObjectUpdater />
+      <UseRefHook />
 
       <ColorPicker/>
 

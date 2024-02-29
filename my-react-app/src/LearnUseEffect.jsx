@@ -6,6 +6,8 @@ function LearnUseEffect() {
 
   useEffect(() => {
     document.title = `Count: ${count} ${color}`;
+
+    
   }), [count, color];
 
   function addCount() {
